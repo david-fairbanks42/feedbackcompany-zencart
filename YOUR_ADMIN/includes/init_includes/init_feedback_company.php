@@ -67,6 +67,14 @@ $fbc_menu_items = array(
         'description' => 'Number of days before invite reminder is sent. "0" will disable the reminder altogether.',
         'use'         => null,
         'set'         => null
+    ),
+    array(
+        'key'         => 'FEEDBACK_COMPANY_WIDGET_UUID',
+        'default'     => '',
+        'title'       => 'Feedback Company Widget ID',
+        'description' => 'The UUID from the widget generator in the Feedback Company portal. The number of reviews shown in the widgets is controlled by the UUID from Feedback Company. Because of style restrictions of the widget, the sidebox is forced the width of the small widget then centered.',
+        'use'         => null,
+        'set'         => null
     )
 );
 
